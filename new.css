@@ -1,0 +1,13 @@
+h1 { color: rgb(12, 239, 255); }
+p { 
+color: black;
+}
+
+body {
+    background-color: rgb(208, 107, 107);
+}
+
+.highlight {
+    font-size: 35px;
+    color: rgb(203, 128, 213);
+}
