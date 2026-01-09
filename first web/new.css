@@ -1,0 +1,20 @@
+h1 { color: rgb(12, 239, 255); }
+p { 
+color: rgb(242, 0, 0);
+}
+
+body {
+    background-color: rgb(0, 0, 0);
+}
+
+.highlight {
+    font-size: 35px;
+    color: rgb(203, 128, 213);
+}
+#MAINheader {
+    color: rgb(41, 180, 108);
+}
+
+h6,h7 {
+    color: rgb(146, 11, 128);
+}

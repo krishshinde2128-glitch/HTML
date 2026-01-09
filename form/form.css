@@ -1,0 +1,19 @@
+body{
+    background-color: hsl(247, 94%, 35%);
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;  
+    align-items: center;        
+    color: rgb(255, 255, 255);
+}
+
+.form-container {
+    background: rgb(0, 0, 0);
+    padding: 20px 30px;
+    border-radius: 8px;
+}
+
+input:invalid:not(:placeholder-shown) {
+  border: 1px solid red;
+}
