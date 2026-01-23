@@ -1,0 +1,114 @@
+/*  */
+
+body {
+    background-color: rgb(10, 129, 87);
+    margin: 0;
+    padding: 0;
+    color: #fff;
+}
+header {
+    text-align: center;
+    padding: 20px 20px;
+}
+
+header h1 {
+    font-size: 42px;
+    margin-bottom: 10px;
+}
+
+header h3 {
+    margin: 5px 0;
+    font-weight: normal;
+}
+
+.tagline {
+    margin-top: 8px;
+    opacity: 0.85;
+}
+
+.intro-audio {
+    margin-top: 5px;     
+}
+
+.profile {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.myimage {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid #fff;
+}
+
+.intro {
+    max-width: 500px;
+    margin: 20px auto 0;
+    line-height: 1.5;
+}
+
+.card {
+    background-color: rgba(64, 3, 3, 0.151);
+    max-width: 700px;
+    margin: 30px auto;
+    padding: 25px;
+    border-radius: 15px;
+}
+
+.card h2 {
+    margin-bottom: 15px;
+}
+
+.links {
+    list-style: none;
+    padding: 0;
+}
+
+.links li {
+    margin: 10px 0;
+}
+
+.links a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.links a:hover {
+    text-decoration: underline;
+}
+
+
+.question-box {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+
+.question-box textarea {
+    padding: 10px;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+}
+
+.question-box textarea {
+    min-height: 100px;
+    resize: none;
+}
+
+.question-box button {
+    padding: 12px;
+    border-radius: 8px;
+    border: none;
+    background-color: #ffffff;
+    color: rgb(10, 129, 87);
+    font-weight: bold;
+}
+
+.question-box button:hover {
+    opacity: 0.9;
+}

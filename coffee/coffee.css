@@ -1,0 +1,190 @@
+* {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Georgia', serif; /* Serif font to match the image */
+            background-color: #f3e9d9; /* Light beige background */
+            color: #4a332a;  
+            line-height: 1.6;
+        }
+
+        a {
+            text-decoration: none;
+            color: #4a332a;
+        }
+
+        ul {
+            list-style-type: none; 
+        }
+
+        
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 50px;
+            background-color: #f3e9d9;
+        }
+
+        .logo {
+            font-size: 24px;
+            font-weight: bold;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .logo span {
+            font-size: 30px;
+        }
+
+        nav ul {
+            display: flex;
+            gap: 20px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        /* --- Hero Section --- */
+        .main {
+            background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('https://images.unsplash.com/photo-1497935586351-b67a49e012bf?ixlib=rb-1.2.1&auto=format&fit=crop&w=1351&q=80');
+            background-size: cover;
+            background-position: center;
+            height: 400px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            text-align: center;
+        }
+
+        .main h1 {
+            font-size: 42px;
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.6);
+        }
+
+        .main p {
+            font-size: 20px;
+            font-style: italic;
+            margin-bottom: 20px;
+        }
+
+        .button {
+            background-color: #6d4c41;
+            color: white;
+            padding: 10px 25px;
+            border: 1px solid #8d6e63;
+            border-radius: 4px;
+            cursor: pointer;
+            font-family: 'Georgia', serif;
+            font-size: 16px;
+            transition: background 0.3s;
+        }
+
+        .button:hover {
+            background-color: #5d4037;
+        }
+
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+
+        .info-section {
+            display: flex;
+            justify-content: space-between;
+            gap: 40px;
+            margin-bottom: 40px;
+            border-bottom: 1px solid #d7ccc8;
+            padding-bottom: 40px;
+        }
+
+        .info-col {
+            flex: 1;
+        }
+
+        .info-col h2 {
+            margin-bottom: 15px;
+            color: #3e2723;
+            border-bottom: 2px solid #bcaaa4;
+            display: inline-block;
+            padding-bottom: 5px;
+        }
+
+        .specialties-list li {
+            margin-bottom: 10px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        .menu-section {
+            text-align: center;
+        }
+
+        .menu-title {
+            font-size: 28px;
+            margin-bottom: 30px;
+            position: relative;
+            display: inline-block;
+            padding: 0 20px;
+        }
+        
+        .menu-title::before, .menu-title::after {
+            content: "";
+            position: absolute;
+            top: 50%;
+            width: 80px;
+            height: 1px;
+            background-color: #8d6e63;
+        }
+        
+        .menu-title::before { right: 100%; }
+        .menu-title::after { left: 100%; }
+
+        .menu-grid {
+            display: flex;
+            justify-content: space-between;
+            text-align: left;
+        }
+
+        .menu-col {
+            flex: 1;
+            padding: 0 10px;
+        }
+
+        .menu-col h3 {
+            color: #5d4037;
+            margin-bottom: 15px;
+            border-bottom: 1px solid #d7ccc8;
+            padding-bottom: 5px;
+        }
+
+        .menu-col ul li {
+            padding: 5px 0;
+            font-size: 18px;
+        }
+
+        .menu-col ul li::before {
+            content: "•";
+            color: #5d4037;
+            margin-right: 10px;
+        }
+
+        footer {
+            background-color: #3e2723;
+            color: #d7ccc8;
+            text-align: center;
+            padding: 20px;
+            margin-top: 40px;
+            font-size: 14px;
+        }

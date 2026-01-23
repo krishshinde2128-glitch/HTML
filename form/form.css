@@ -14,6 +14,3 @@ body{
     border-radius: 8px;
 }
 
-input:invalid:not(:placeholder-shown) {
-  border: 1px solid red;
-}
