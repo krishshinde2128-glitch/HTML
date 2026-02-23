@@ -1,47 +1,31 @@
-This is a great start to your personal portfolio! Since you are a B.Tech student at ITM and looking to grow into a skilled professional, having a clean README on GitHub is essential. It shows you care about documentation and presentation.
+# 👨‍💻 Krish Shinde | Personal Portfolio
 
-Here is a README.md file tailored specifically to your code:
+A custom-built personal landing page showcasing my journey as a student at ITM, my technical skills, and my interests. This project focuses on clean aesthetics and multimedia integration to create an engaging user experience.
 
-Personal Portfolio Website 🚀
-Welcome to the repository for my personal portfolio website. This project serves as a digital business card, showcasing my skills, interests, and ways to connect with me.
+## ✨ Features
+* **Multimedia Integration:** Includes native HTML5 `<audio>` and `<video>` elements with subtitle support (`.vtt`).
+* **Personal Branding:** Features a circular profile image linked directly to LinkedIn for easy networking.
+* **Skill Showcase:** Highlights a mix of technical (C/C++, Python, HTML) and personal (Football, Gymming) strengths.
+* **Interactive Contact Form:** A built-in "Ask Me Anything" section to capture visitor inquiries.
+* **Social Hub:** Quick-access links to LinkedIn, GitHub, and Instagram.
 
-📌 Overview
-This is a lightweight, responsive portfolio built to introduce myself as a tech enthusiast and student. It features a clean layout with integrated multimedia elements and a contact form for engagement.
+## 🛠️ Built With
+* **HTML5:** Semantic layout using `header`, `section`, and multimedia tags.
+* **CSS3:** Custom styling featuring a unique forest green palette (`rgb(12, 111, 77)`), Flexbox for form layout, and responsive design elements.
 
-✨ Features
-Profile Section: Includes a circular profile image and a brief introduction.
+## 📂 Project Structure
+```text
+├── index.html          # Core structure and multimedia links
+├── portfolio.css       # Custom styling and layout logic
+├── me.png              # Profile photo
+└── assets/             # Video and Audio media files
 
-Multimedia Integration: Built-in Audio and Video players for a more interactive user experience.
+🚀 How to Run
+Clone the repository.
 
-Social Connectivity: Direct links to my LinkedIn, GitHub, and Instagram profiles.
+Open index.html in your favorite browser.
 
-Skill Showcase: A dedicated section highlighting my technical (C++, Python, HTML) and personal (Football, Gymming) interests.
+Ensure the media files (.mp4 and .mp3) are in the same directory for the players to function correctly.
 
-Contact Form: An "Ask Me Anything" section for visitors to send queries directly.
-
-🛠️ Tech Stack
-HTML5: Structured the content using semantic tags like <header>, <section>, and <form>.
-
-CSS3: Custom styling using Flexbox, RGBA transparency for glassmorphism effects, and responsive design principles.
-
-📂 Project Structure
-Plaintext
-├── index.html       # Main structure of the portfolio
-├── portfolio.css    # Styling and layout definitions
-├── me.png           # Profile picture (local asset)
-├── luvvoice.com...  # Audio introduction file
-└── dog talking...   # Video introduction file
-🚀 How to Run Locally
-Clone the repository:
-
-Bash
-git clone https://github.com/krishshinde2128-glitch/portfolio-repo-name.git
-Navigate to the folder:
-
-Bash
-cd portfolio-repo-name
-Open the site:
-Simply double-click index.html to view it in your preferred browser.
-
-👨‍💻 About Me
-I am Krish Shinde, a B.Tech student at ITM. I am passionate about web development, coding in C++ and Python, and I aim to grow into a skilled professional and entrepreneur. When I'm not coding, you'll find me at the gym or on the football field.
+💡 About Me
+I am a B.Tech student at ITM Nerul, passionate about building cool things and learning every day. My goal is to grow into a skilled professional and an entrepreneur

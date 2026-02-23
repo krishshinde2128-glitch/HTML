@@ -1,36 +1,33 @@
-🌸 Interactive Flower Gallery
-A lightweight web-based gallery featuring interactive floral elements. This project uses hyperlinked images to connect visual data with educational resources (Wikipedia).
+# 🌻 Flowers Interactive Gallery
 
-📌 Project Overview
-The Flower Gallery is a clean, minimal project designed to demonstrate the use of image-based navigation. Each flower in the gallery acts as a gateway to more information, combining high-quality imagery with external knowledge bases.
+A clean and functional image gallery featuring various botanical species. This project demonstrates the effective use of **Hyperlinked Imagery**—nesting image elements within anchor tags to create an interactive, educational user interface.
 
-✨ Key Features
-Clickable Image Navigation: Every image is wrapped in an anchor (<a>) tag, leading to a specific Wikipedia entry.
+## ✨ Features
+* **Interactive Navigation:** Each flower image acts as a button that links directly to its detailed Wikipedia entry.
+* **Structured Layout:** Images are normalized to a consistent width for a predictable visual flow.
+* **Educational Context:** Covers a variety of species including Roses, Sunflowers, Lilies, Dandelions, and Blossoms.
+* **SEO Friendly:** Includes `alt` attributes and descriptive titles for better accessibility.
 
-Uniform Grid Styling: Images are constrained to a 200px width to maintain a consistent visual rhythm.
 
-Semantic Structure: Uses standard HTML5 tags for simple, fast-loading performance.
 
-Educational Integration: Directly links visual identification with botanical information.
+## 🛠️ Built With
+* **HTML5:** Semantic structure and hyperlinking.
+* **External Links:** Integrated with Wikipedia for deep-dive information.
 
-🛠️ Technical Implementation
-HTML5: * Attributes: alt tags used for accessibility.
+## 📂 Project Structure
+```text
+├── index.html        # Main gallery structure
+├── Rosa_Precious_platinum.jpg
+├── sunflower.jpg   
+├── lily.jpg
+├── 960px-Dandelion_flower_head.jpg
+└── Badamwari_Flower_Series_2.png
 
-Styling: Inline CSS for quick center-alignment of the primary heading.
-
-Links: Global attributes for external site navigation.
-
-📂 Project Structure
-Plaintext
-├── index.html       # Gallery layout and image links
-├── Rosa_Precious_platinum.jpg  # Asset
-├── sunflower.jpg    # Asset
-├── lily.jpg         # Asset
-└── ...              # Other floral assets
-🚀 How to Run
-Clone the project:
+🚀 Getting Started
+Clone the Repository:
 
 Bash
-git clone https://github.com/krishshinde2128-glitch/flower-gallery.git
-Open the file:
-Launch index.html in any browser to explore the gallery.
+git clone [https://github.com/your-username/flowers-gallery.git](https://github.com/your-username/flowers-gallery.git)
+Verify Assets: Ensure all image files listed in the structure above are present in the root folder.
+
+Launch: Open index.html in any modern web browser to view the gallery.

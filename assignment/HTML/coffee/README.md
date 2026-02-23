@@ -1,40 +1,30 @@
-This Coffee Shop landing page is a great example of a structured multi-column layout. Using a container to wrap your sections is a professional way to manage whitespace and alignment—skills that are essential as you work toward your B.Tech goals.
+# ☕ Coffee Shop Landing Page
 
-Here is a ready-to-use README.md for your coffee shop project:
+A responsive, elegant landing page for a boutique coffee shop. This project focuses on clean typography, a warm aesthetic, and a structured layout to showcase menus and shop information.
 
-☕ Coffee Shop Landing Page
-A cozy, well-structured landing page for a boutique coffee shop. This project focuses on multi-column layouts, grid systems, and semantic HTML organization.
+## 🚀 Live Demo
+*(Once you host this on GitHub Pages, paste the link here!)*
 
-📌 Overview
-The Coffee Shop project is designed to provide a clean and inviting user experience. It features a distinct hero section followed by detailed information columns and a categorized menu grid, making it an excellent template for small business websites.
+## ✨ Features
+* **Hero Section:** A visually striking header with a background overlay and a call-to-action button.
+* **Responsive Menu:** A categorized layout for Coffee, Tea, and Pastries.
+* **About Section:** Clean columns highlighting shop specialties and history.
+* **Modern UI:** Uses a warm color palette (`#f3e9d9`, `#4a332a`) and serif fonts for a premium feel.
+* **Pure CSS:** No external frameworks like Bootstrap—just custom, semantic CSS.
 
-✨ Key Features
-Hero Branding: A high-impact greeting section with a call-to-action button.
+## 🛠️ Built With
+* **HTML5:** Semantic structure.
+* **CSS3:** Flexbox layout, CSS variables, and hover transitions.
+* **Google Fonts / Serif Typography:** For a sophisticated brand identity.
 
-Dual-Column Info Section: Balanced layout for "About Us" and "Specialties" using a flexible column structure.
+## 📂 Project Structure
+```text
+├── index.html    # Main page structure
+└── coffee.css     # Custom styling and layout
 
-Three-Column Menu Grid: Categorized lists for Coffee, Tea, and Pastries organized for quick scanning.
-
-Responsive Container: Uses a centralized container class to ensure content remains readable on different screen widths.
-
-Semantic Navigation: A clean header with a symbolic logo and structured navigation links.
-
-🛠️ Technical Implementation
-HTML5 Semantic Tags: Proper use of <header>, <nav>, <section>, and <footer> for better accessibility and SEO.
-
-Layout Techniques: * Flexbox/Grid Ready: The menu-grid and info-section classes are designed to be styled using modern CSS layout engines.
-
-Containerization: Content is wrapped in a container div to maintain consistent margins across the site.
-
-📂 Project Structure
-Plaintext
-├── index.html       # Structural layout and content
-├── coffee.css       # Visual styling and layout rules
-└── README.md        # Project documentation
-🚀 How to Run
-Clone the repository:
+⚙️ How to Run
+Clone this repository:
 
 Bash
-git clone https://github.com/krishshinde2128-glitch/coffee-shop-ui.git
-Open the project:
-Simply open index.html in your browser.
+git clone [https://github.com/your-username/coffee-shop-landing.git](https://github.com/your-username/coffee-shop-landing.git)
+Open index.html in your favorite browser.
