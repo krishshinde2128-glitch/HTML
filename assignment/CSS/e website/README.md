@@ -1,42 +1,38 @@
-🏀 ProSport Gear - Premium E-commerce UI
-A sleek, modern sports equipment storefront designed for performance and high conversion. This project focuses on product card architecture, hover interactions, and clean typography.
+# 🏆 ProSport Gear - Athletes' E-Commerce UI
 
-📌 Project Overview
-ProSport Gear is a responsive landing page built to showcase athletic equipment. It utilizes a minimalist "Card-based" layout to highlight products, featuring a "Red/Dark" theme that emphasizes urgency and quality.
+A modern, high-conversion landing page for a sports equipment retailer. This project focuses on clean product presentation, consistent branding, and an optimized user experience for athletic shoppers.
 
-✨ Key Features
-Modern Product Cards: Features rounded corners (16px), subtle borders, and deep soft shadows for a premium feel.
+## ✨ Features
+* **Modern Aesthetic:** A sleek "Inter" font-driven design with a bold red (`#e63946`) and dark charcoal palette.
+* **Smart Theming:** Utilizes **CSS Variables** for easy maintenance and global design consistency.
+* **Interactive Product Cards:** Features smooth hover animations, including vertical lifting and enhanced drop shadows.
+* **Responsive Flex Grid:** A dynamic layout that handles different screen sizes by wrapping product cards naturally.
+* **Visual Hierarchy:** Clear price points and high-contrast "Add to Cart" buttons to drive user actions.
 
-Micro-interactions: * Cards elevate on hover using translateY to signify interactability.
+## 🛠️ Built With
+* **HTML5:** Semantic structure for better SEO and accessibility.
+* **CSS3:** Advanced styling using:
+    * **Flexbox:** For perfect center-alignment and spacing of the product grid.
+    * **Transitions:** For smooth `:hover` states on buttons and cards.
+    * **Gradients:** Subtle hero section backgrounds for depth.
 
-"Add to Cart" buttons feature a slight scale-down effect (0.98) to mimic a real physical click.
+## 📂 Project Structure
+```text
+├── index.html    # Core structure and product catalog
+└── e.css         # Theme variables and layout logic
 
-Responsive Grid: Uses CSS Flexbox with flex-wrap to ensure the layout shifts naturally from desktop to mobile screens.
-
-Typography: Implements the 'Inter' font stack for a tech-focused, readable aesthetic.
-
-Hero Branding: A centered hero section with a specific focus on the "Greatness" tagline using a primary color underline.
-
-🛠️ Technical Implementation
-HTML5: Clean, semantic structure using <nav>, <header>, and <main>.
-
-CSS3 Features:
-
-CSS Variables (:root): Centralized theme colors for easy rebranding.
-
-Transitions: Smooth 0.3s ease transitions for all interactive elements.
-
-Object-fit: Ensures all product images maintain their aspect ratio without stretching.
-
-📂 File Structure
-Plaintext
-├── index.html       # Page structure and product data
-├── e.css            # Custom theme and responsive layout
-└── README.md        # Project documentation
 🚀 How to Run
-Clone the repository:
+Clone the repository to your local directory.
 
-Bash
-git clone https://github.com/krishshinde2128-glitch/prosport-gear-ui.git
-Launch:
-Open index.html in any browser to view the storefront.
+Open index.html in your browser.
+
+Hover over the cards to experience the smooth interactive elevation effect.
+
+Technical Highlight: Maintainable CSS
+By using a :root selector, this project allows for instant site-wide color changes:
+
+CSS
+:root {
+    --primary: #e63946; /* Change this once to update all buttons and highlights */
+    --dark: #1a1a1a;
+}
