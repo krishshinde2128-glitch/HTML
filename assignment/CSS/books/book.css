@@ -1,0 +1,77 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    background-color: #f9f7f2; /* Soft paper color */
+    color: #333;
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 5%;
+    background: white;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.logo { font-weight: bold; font-size: 1.5rem; }
+
+input[type="text"] {
+    padding: 8px 15px;
+    border-radius: 20px;
+    border: 1px solid #ddd;
+    width: 250px;
+}
+
+/* Hero Section */
+.hero {
+    text-align: center;
+    padding: 60px 20px;
+    background: linear-gradient(135deg, #ff9a44 0%, #fc6076 100%); /* Softer gradient */
+    color: white;
+}
+
+.quote { font-style: italic; margin-bottom: 25px; opacity: 0.9; }
+
+.cta-btn {
+    background-color: #e63946;
+    color: white;
+    padding: 12px 30px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+.cta-btn:hover { transform: scale(1.05); }
+
+/* Books Grid */
+.featured { padding: 40px 5%; }
+
+.book-grid {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.book-card {
+    background: white;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+    text-align: center;
+    width: 180px;
+}
+
+.book-card img {
+    width: 100%;
+    border-radius: 4px;
+    transition: 0.3s;
+}
+
+.book-card img:hover { transform: translateY(-5px); }
+
+.book-card p { font-size: 0.9rem; margin-top: 10px; font-weight: 500; }

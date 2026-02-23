@@ -1,0 +1,74 @@
+:root {
+    --luna-ice: #A7EBF2;      /* Lightest */
+    --luna-teal: #54ACBF;     /* Soft teal */
+    --luna-ocean: #26658C;    /* Mid-tone */
+    --luna-deep: #023859;     /* Deep blue */
+    --luna-midnight: #011C40; /* Darkest */
+}
+
+body {
+    background: radial-gradient(circle at top, var(--luna-deep), var(--luna-midnight));
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+
+#myForm {
+    background-color: rgba(2, 56, 89, 0.5); /* Semi-transparent Luna Deep */
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+    border: 1px solid var(--luna-ocean);
+    width: 300px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    color: var(--luna-ice);
+    font-weight: bold;
+    font-size: 0.9rem;
+    letter-spacing: 1px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid var(--luna-ocean);
+    border-radius: 5px;
+    background-color: var(--luna-midnight);
+    color: white;
+    box-sizing: border-box; /* Ensures padding doesn't break width */
+    transition: border-color 0.3s ease;
+}
+
+input:focus {
+    outline: none;
+    border-color: var(--luna-ice);
+    box-shadow: 0 0 5px var(--luna-ice);
+}
+
+input[type="submit"] {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    background-color: var(--luna-teal);
+    color: var(--luna-midnight);
+    font-weight: bold;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: all 0.3s ease;
+}
+
+input[type="submit"]:hover {
+    background-color: var(--luna-ice);
+    transform: translateY(-2px);
+}

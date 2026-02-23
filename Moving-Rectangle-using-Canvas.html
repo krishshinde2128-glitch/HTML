@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Working SVG Animation</title>
+</head>
+<body>
+
+<svg width="300" height="150" style="border:1px solid rgb(255, 255, 255)">
+  <circle cx="45" cy="75" r="25" fill="blue">
+    <animate
+      attributeName="cx"
+      from="45"
+      to="255"
+      dur="2s"
+      repeatCount="indefinite" />
+  </circle>
+
+  <text x="10" y="20" font-size="16">SVG</text>
+</svg>
+
+</body>
+</html>
+
+<!DOCTYPE html>
+<html>
+<head>
+  
+  <title>Canvas Repeating Motion</title>
+</head>
+<body>
+
+<canvas id="c" width="300" height="150" style="border:1px solid black"></canvas>
+
+<script>
+  const canvas = document.getElementById("c");
+  const ctx = canvas.getContext("2d");
+
+  let x = 20;
+
+  function animate() {
+    ctx.clearRect(0, 0, canvas.width, canvas.height);
+
+    // draw circle
+    ctx.fillStyle = "blue";
+    ctx.beginPath();
+    ctx.arc(x, 50, 25, 0, Math.PI * 2);
+    ctx.fill();
+
+    // text
+    ctx.font = "16px Arial";
+    ctx.fillText("Canvas", 10, 20);
+
+    // move repeatedly
+    x += 2;
+    if (x > canvas.width) x = -50;
+
+    requestAnimationFrame(animate);
+  }
+
+  animate();
+</script>
+
+</body>
+</html>
