@@ -1,0 +1,189 @@
+
+:root {
+    --dark-eclipse: #111d4a;    /*  Background */
+    --closed-shutter: #1e1e24;  /*  Cards */
+    --jack-and-coke: #92140c;   /* Error States */
+    --peach-orange: #ffcf99;    /* Primary Gold */
+    --fatback: #fff8f0;         /* Main Text/Off-White */
+    --transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--dark-eclipse);
+    color: var(--fatback);
+    font-family: 'Playfair Display', serif;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    padding: 60px 20px;
+}
+
+/* --- Nav --- */
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 80px; 
+    margin-bottom: 60px;
+    width: 100%;
+}
+
+nav a {
+    color: var(--peach-orange);
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-size: 0.9rem;
+    font-weight: bold;
+    transition: var(--transition);
+}
+
+nav a:hover {
+    color: var(--fatback);
+    letter-spacing: 6px;
+}
+
+/*  Headlines  */
+h1 {
+    color: var(--peach-orange);
+    text-transform: uppercase;
+    letter-spacing: 12px;
+    font-weight: 300;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+/*  Card Structure  */
+.card {
+    background: var(--closed-shutter);
+    border: 1px solid rgba(255, 207, 153, 0.2); /* Peach border */
+    padding: 40px;
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    border-radius: 4px;
+    box-shadow: 0 30px 60px rgba(0,0,0,0.6);
+    text-align: center; 
+}
+
+/*  Booking Form Layout  */
+.booking-form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px; 
+    margin-bottom: 40px;
+    text-align: left;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    flex: 1; 
+    min-width: 200px;
+}
+
+label {
+    color: var(--peach-orange);
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 12px;
+}
+
+input, select {
+    background: rgba(17, 29, 74, 0.8); /* Dark background */
+    border: 1px solid rgba(255, 248, 240, 0.3); /*  border */
+    color: var(--fatback);
+    padding: 12px;
+    font-family: 'Inter', sans-serif;
+    border-radius: 2px;
+}
+
+input:focus {
+    outline: none;
+    border-color: var(--peach-orange);
+}
+
+/*  Tables  */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th {
+    color: var(--peach-orange);
+    text-align: left;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 0.75rem;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgba(255, 207, 153, 0.3);
+}
+
+td {
+    padding: 25px 0;
+    border-bottom: 1px solid rgba(255, 248, 240, 0.1);
+    text-align: left;
+}
+
+/*  Links & Buttons  */
+table td a {
+    color: var(--peach-orange);           
+    text-decoration: none;     
+    border-bottom: 1px solid transparent; 
+    font-weight: bold;
+    transition: all 0.3s ease; 
+}
+
+table td a:hover {
+    color: var(--fatback);            
+    border-bottom: 1px solid var(--fatback); 
+}
+
+button, .primary-btn {
+    background: var(--peach-orange);
+    color: var(--closed-shutter);
+    border: none;
+    padding: 18px;
+    width: 100%;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 4px;
+    cursor: pointer;
+    transition: var(--transition);
+    margin: 20px 0;
+    display: block;
+}
+
+button:hover, .primary-btn:hover {
+    background: var(--fatback);
+    transform: translateY(-3px);
+    box-shadow: 0 5px 15px rgba(255, 207, 153, 0.3);
+}
+
+/* Empty Leg Alerts */
+.alert-text {
+    color: var(--jack-and-coke);
+    font-weight: bold;
+}
+
+/*  Specification Text  */
+.specs-text li {
+    margin: 10px 0;
+    color: var(--fatback); 
+}
+
+/*  Image Handling  */
+.details-image-wrapper img {
+    width: 100%;
+    max-width: 600px; 
+    border-radius: 4px;
+    border: 1px solid var(--peach-orange);
+    box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+    margin-top: 20px;
+}

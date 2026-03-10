@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="FlyPrivate.css">
+    <title>Book Your Jet</title>
+</head>
+<body>
+    <h1>Reserve Your Flight</h1>
+
+    <div class="card">
+        <label>Membership Tier:</label>
+        <select id="tier" onchange="calculatePrice()">
+            <option value="standard">Standard</option>
+            <option value="gold">Gold Member (10% Off)</option>
+        </select>
+
+        <label>Hours of Flight:</label>
+        <input type="number" id="hours" value="1" oninput="calculatePrice()">
+
+        <label>Passenger Count:</label>
+        <input type="number" id="passengers" placeholder="Max 16">
+        <p id="error" style="color: red;"></p>
+
+        <hr>
+        <h3>Total Estimated Cost: <span id="total">$5,000</span></h3>
+        <p><small>*Includes Luxury Tax breakdown at checkout</small></p>
+        
+        <button onclick="validateBooking()">Confirm Booking</button>
+    </div>
+
+   <script src="booking.js"></script>
+</body>
+</html>

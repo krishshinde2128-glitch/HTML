@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="FlyPrivate.css">
+    <title>FlyPrivate - Fleet</title>
+</head>
+<body>
+    <nav>
+        <a href="aircraft-list.html">Fleet</a>
+        <a href="booking.html">Book Now</a>
+    </nav>
+
+    <h1>Our Private Fleet</h1>
+
+    <div class="card">
+        <table>
+            <thead>
+                <tr>
+                    <th>Model</th>
+                    <th>Range</th>
+                    <th>Capacity</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><span class="jet-name">Gulfstream G650</span></td>
+                    <td>7,000 nm</td>
+                    <td>16</td>
+                    <td><a href="aircraft-details.html">View Details</a></td>
+                </tr>
+                <tr>
+                    <td><span class="jet-name">Cessna Citation</span></td>
+                    <td>2,100 nm</td>
+                    <td>8</td>
+                    <td><a href="aircraft-details-2.html">View Details</a></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div id="jetModal" class="modal" onclick="closeModal()">
+        <div class="modal-content" onclick="event.stopPropagation()">
+            <span class="close-button" onclick="closeModal()">&times;</span>
+            <h2 id="modalTitle" style="letter-spacing: 4px; margin-top: 0;"></h2>
+            <img id="jetImage" src="" alt="Jet Preview" style="width:100%; border-radius: 4px; border: 1px solid var(--quicksand);">
+        </div>
+    </div>
+    <script src="fleet.js"></script>
+</body>
+</html>
